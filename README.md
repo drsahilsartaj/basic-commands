@@ -1,4 +1,4 @@
-# basic-commands
+# basic-commands-in-terminal
 This is a repo for me to have the basic or fundamental command i will use like in git, conda etc
 
 **Create a env using conda and then activate that env**:<br>
