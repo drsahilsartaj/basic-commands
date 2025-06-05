@@ -37,5 +37,6 @@ git push origin main
 ```
 **Extra Tips**
 ```
-git status #status
+git status #Shows branch + file changes (imp)
+git branch #list of branches
 ```
