@@ -26,3 +26,16 @@ git commit -m "Your commit message"
 git push origin main
 
 ```
+**push new changes to the same branch after making modifications**<br>
+- Just add → commit → push (no need to re-run git remote add or git init again)
+```
+1. Make your changes (edit/add/delete files)
+2. git add .  #Stages all modified/new files
+3. git commit -m "Your new commit message"
+4. git push origin <Push-to-the-same-branch> # -u only for the first time push
+(or) git push #git will remember the last branch as the default push target
+```
+**Extra Tips**
+```
+git status #status
+```
