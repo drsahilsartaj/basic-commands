@@ -40,3 +40,9 @@ git push origin main
 git status #Shows branch + file changes (imp)
 git branch #list of branches
 ```
+
+**Clone or Download a GitHub repository**<br>
+```
+1. 'cd folder-path' #Navigate to the folder where you want to clone the repo
+2. Clone the repository by Copy the HTTPS or SSH URL eg. git clone https://github.com/username/repo.git
+```
