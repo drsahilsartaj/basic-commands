@@ -46,3 +46,16 @@ git branch #list of branches
 1. 'cd folder-path' #Navigate to the folder where you want to clone the repo
 2. Clone the repository by Copy the HTTPS or SSH URL eg. git clone https://github.com/username/repo.git
 ```
+
+**Already push wrong folder or files**<br>
+```
+# The folder was already tracked by Git before you added it to .gitignore
+# Git only ignores new untracked files - once a file/folder is committed, .gitignore won't affect it
+1. git check-ignore -v folder-name/ #Verify it's actually being tracked (If no output, it's being tracked)
+2. git rm -r --cached folder-name/ #Remove it from Git tracking (but keep locally)
+3. Update that in your .gitignore
+4. Commit and push
+$ git add .gitignore
+$ git commit -m "your-msg"
+$ git push
+```
