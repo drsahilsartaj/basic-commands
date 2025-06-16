@@ -59,3 +59,8 @@ $ git add .gitignore
 $ git commit -m "your-msg"
 $ git push
 ```
+
+**Show hidden files in MacOS**<br>
+```
+https://news.trendmicro.com/2018/03/12/how-to-show-hidden-files-and-folders-on-your-mac/ #website
+```
